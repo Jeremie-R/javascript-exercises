@@ -1,14 +1,14 @@
 const sumAll = function(first, last) {
 
-    if (Number.isInteger(first) = false) {
-        return "ERROR"
-    }
-    if (Number.isInteger(last) = false) {
-        return "ERROR"
-    }
-    if ((first < 0) ||  (last < 0)) {
-        return "ERROR"
-    }
+    // if (Number.isInteger(first) = false) {
+    //   return "ERROR"
+    //  };
+    //  if (Number.isInteger(last) = false) {
+    //      return "ERROR" };
+    
+     if ((first < 0) ||  (last < 0)) {
+         return "ERROR"
+     };
 
     //thank you math
     if (first < last) {
@@ -16,7 +16,7 @@ const sumAll = function(first, last) {
         return total;
 
     } else {
-        let total = ((firs-last+1)/2)*(first+last);
+        let total = ((first-last+1)/2)*(first+last);
         return total;
     }
 
